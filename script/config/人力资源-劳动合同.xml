@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <connection description="浏览器及server地址">
+        <hub browser="FF" enabled="False"/>
+        <hub browser="Chrome" enabled="True"/>
+        <hub browser="ie" enabled="False"/>
+    </connection>
+    <scene description="脚本执行顺序为子标签排列顺序" schemeId="1802">
+
+        <!--员工录用填单提交-->
+
+        <!--填写员工基本信息-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/添加审批流_劳动合同变更.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/添加审批流_劳动合同终止.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/添加审批流_劳动合同续签.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/添加审批流_劳动合同解除.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/添加审批流_劳动合同订立.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/员工信息.py</testCase>-->
+
+
+<!--        &lt;!&ndash;签订劳动合同&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同签订.py</testCase>-->
+
+<!--        &lt;!&ndash;审批劳动合同&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>-->
+
+<!--        &lt;!&ndash;劳动合同变更&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同变更.py</testCase>-->
+
+<!--        &lt;!&ndash;劳动合同审批&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>-->
+
+
+        <!--劳动合同续签及审批-->
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同续签.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>
+
+
+<!--        &lt;!&ndash;劳动合同解除&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同解除.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>-->
+
+
+<!--        &lt;!&ndash;合同终止的前置数据&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/员工信息.py</testCase>-->
+
+
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同签订.py</testCase>-->
+
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>-->
+
+
+<!--        &lt;!&ndash;合同终止流程&ndash;&gt;-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/劳动合同终止.py</testCase>-->
+
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/劳动合同/审批中心_审批合同.py</testCase>-->
+        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+    </scene>
+</catalog>

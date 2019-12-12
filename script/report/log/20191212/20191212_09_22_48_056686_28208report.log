@@ -1,0 +1,11 @@
+2019-12-12 09:22:48 Start.
+2019-12-12 09:22:48 场景<1>开始.
+2019-12-12 09:22:52 行号:0    PASS   最大化浏览器窗口[maximize_window]  用时:1.237s  
+2019-12-12 09:22:53 chrome浏览器启动成功.
+2019-12-12 09:22:53 开始加载脚本...
+2019-12-12 09:22:53 脚本<1>：U8EX登录 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登录
+2019-12-12 09:22:53 脚本<2>：减少方式 加载成功.脚本路径：script/testCase/Y3me项目/数字化建模/固定资产/减少方式
+2019-12-12 09:22:53 脚本<3>：U8EX登出 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登出
+2019-12-12 09:22:53 脚本加载完成...
+2019-12-12 09:22:53 开始运行脚本<class 'script.testCase.U8EX项目.公共.U8EX登录.EasyCase'>
+2019-12-12 09:22:53 行号:27   ERROR  访问页面[get]  用时:0.090s  [decorator.driverAction_dec]:unknown error: cannot determine loading status

@@ -1,0 +1,63 @@
+# coding=utf-8
+from time import time, sleep
+
+from SRC.common.decorator import codeException_dec
+from SRC.unittest.case import TestCase
+from script.common import utils
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+
+
+class EasyCase(TestCase):
+    def __init__(self, webDriver, paramsList):
+        # 请不要修改该方法124421
+        super(EasyCase, self).__init__(webDriver, paramsList)
+
+    @codeException_dec('3')
+    def runTest(self):
+        driver = self.getDriver()
+        param = self.param
+        tool = utils
+        driver.refresh()
+        # 左上方公共节点
+        driver.find_element_by_class_name('lebra-navbar-left-icon').click()
+        sleep(3)
+        # 进入财务管理
+        driver.find_element_by_xpath('//*[text()="财务管理"]').click()
+        sleep(3)
+        # 进入一级节点
+        menu2 = driver.find_element_by_css_selector('span[title="存货核算"]')
+        actions = ActionChains(driver)
+        actions.move_to_element(menu2)
+        actions.click(menu2)
+        actions.perform()
+        sleep(3)
+        # 进入二级节点
+        menu3 = driver.find_element_by_css_selector('li[class="bottomBar"][title=" 收发存汇总表"]')
+        actions.move_to_element(menu3)
+        actions.click(menu3)
+        actions.perform()
+
+        sleep(6)
+        titleName = driver.find_element_by_css_selector(
+            '#home_header > div > div.tab--38iB- > ul > li > p').get_attribute('title')
+        assert u"收发存汇总表" in titleName, u"页面源码中不存在该关键字！"
+        sleep(5)
+        iframe = driver.find_element_by_id('fiia0601')
+        driver.switch_to.frame(iframe)
+        # 查询
+        driver.find_element_by_xpath('//label[text()="会计主体"]/..//span[@class="ant-select-arrow"]/i').click()
+        driver.find_element_by_xpath('//li[text()="yontest云创股份"]').click()
+        driver.find_element_by_xpath('//span[text()="至"]/../div[1]//span[2]/i').click()
+        driver.find_element_by_xpath('//li[text()="2019-10"]').click()
+        driver.find_element_by_xpath('//span[text()="至"]/../div[2]//span[2]/i').click()
+        driver.find_element_by_xpath('//div[6]//li[text()="2019-11"]').click()
+        search_button = driver.find_element_by_xpath('//span[text()="查 询"]')
+        driver.execute_script("arguments[0].click();",search_button)
+
+
+        driver.switch_to.default_content()
+        driver.find_element_by_class_name('u-button').click()
+        sleep(3)
+        driver.find_element_by_class_name('u-dropdown-menu-item').click()
+        sleep(3)

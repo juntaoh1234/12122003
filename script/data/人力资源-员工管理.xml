@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <connection description="浏览器及server地址">
+    <hub browser="FF" enabled="False"/>
+    <hub browser="Chrome" enabled="True"/>
+    <hub browser="ie" enabled="False"/>
+  </connection>
+<scene description="脚本执行顺序为子标签排列顺序" schemeId="1801">
+
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_正式员工.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--走审批单据流程-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <!--<testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理.py</testCase>-->
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批录用单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+  <!--填写转正单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/转正办理.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--审批单据转正单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批转正单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--组织内变动审批全部流程**********************************************************************-->
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_正式员工.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+
+  <!--审批无试用期的单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批无试用期.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--填写组织内变动单据，提交审批流-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/调动办理_组织内变动.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--审批组织内变动单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批调动单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+
+  <!--汇报关系审批全部流程**********************************************************************-->
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_正式员工.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+
+  <!--审批无试用期的单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批无试用期.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--填写调动办理汇报关系变动单据，提交审批流-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/调动办理_汇报关系变动.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--审批汇报关系单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批调动单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+
+  <!--员工离职流程************************************************************************************-->
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_正式员工.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--审批无试用期的单据-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批无试用期.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--填写离职单据，提交审批流-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/离职办理.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--审批离职单-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批离职单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+
+  <!--入职报到办理流程************************************************************************************-->
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_正式员工.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--入职审批至确认入职阶段，再进去入职报到办理审批-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_入职报到办理.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--填写离职单据，提交审批流-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/入职报到办理.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+  <!--实习生入职审批****************************************************************************-->
+  <!--员工录用填单提交-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/录用办理_实习生.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+  <!--走审批单据流程-->
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/员工管理/审批中心_审批实习生录用单.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+</scene></catalog>

@@ -1,0 +1,176 @@
+# coding=utf-8
+import os
+import win32com.client
+import xlrd
+from xlutils.copy import copy
+
+
+'''
+本代码主要封装了几个操作Excel数据的方法
+'''
+
+'''
+获取行视图
+根据Sheet序号获取该Sheet包含的所有行，返回值类似[ {'a':1, 'b':2}, {'a':4, 'b':5} ]
+sheetIndex指示sheet的索引，0表示第一个sheet，依次类推
+xlsFilePath是Excel文件的相对或者绝对路径
+dataresult 保存从excel表中读取出来的值，每一行为一个list，dataresult中保存了所有行的内容
+excel表中的第一行，是字典的键（key），其他的行是值（value）
+result是由dict组成的list，是将dataresult中的内容全部转成字典组成的list：result
+'''
+def getAllRowsBySheetIndex(sheetName, xlsFilePath):
+	if os.path.exists(xlsFilePath):
+		workBook = xlrd.open_workbook(xlsFilePath)
+		#table = workBook.sheets()[sheetIndex]
+		table = workBook.sheet_by_name(sheetName)
+		dataresult = []
+		result = []
+		rowNum = table.nrows  # 总共行数
+		rowList = table.row_values
+		for i in range(rowNum):
+			dataresult.append(rowList(i))
+		# 将list转化成dict
+		for i in range(1, len(dataresult)):
+			temp = dict(zip(dataresult[0], dataresult[i]))
+			result.append(temp)
+		return result
+	else:
+		print('excel文件不存在')
+
+
+'''
+获取某个Sheet的指定序号的行
+sheetIndex从0开始
+rowIndex从0开始
+'''
+def getRow(sheetIndex, rowIndex, xlsFilePath):
+	if os.path.exists(xlsFilePath):
+		rows = getAllRowsBySheetIndex(sheetIndex, xlsFilePath)
+
+		return rows[rowIndex]
+	else:
+		print('excel文件不存在')
+
+
+'''
+获取列视图
+根据Sheet序号获取该Sheet包含的所有列，返回值类似[ ['a', 'b', 'c'], ['1', '2', '3'] ]
+sheetIndex指示sheet的索引，0表示第一个sheet，依次类推
+xlsFilePath是Excel文件的相对或者绝对路径
+'''
+def getAllColsBySheetIndex(sheetIndex, xlsFilePath):
+	if os.path.exists(xlsFilePath):
+		workBook = xlrd.open_workbook(xlsFilePath)
+		table = workBook.sheets()[sheetIndex]
+
+		cols = []
+		colNum = table.ncols  # 总共列数
+		colList = table.col_values
+		for i in range(colNum):
+			cols.append(colList(i))
+
+		return cols
+	else:
+		print('excel文件不存在')
+
+
+'''
+获取某个Sheet的指定序号的列
+sheetIndex从0开始
+colIndex从0开始
+'''
+def getCol(sheetIndex, colIndex, xlsFilePath):
+	if os.path.exists(xlsFilePath):
+		cols = getAllColsBySheetIndex(sheetIndex, xlsFilePath)
+
+		return cols[colIndex]
+	else:
+		print('excel文件不存在')
+
+
+'''
+获取指定sheet的指定行列的单元格中的值
+'''
+def getCellValue(sheetIndex, rowIndex, colIndex, xlsFilePath):
+	if os.path.exists(xlsFilePath):
+		workBook = xlrd.open_workbook(xlsFilePath)
+		table = workBook.sheets()[sheetIndex]
+
+		return table.cell(rowIndex, colIndex).value
+	else:
+		print('excel文件不存在')
+
+'''
+根据给定的行和列将数据写入excel中
+'''
+def writeValue(xlsFilePath,sheetName,result_list,saveFilePath):
+	if os.path.exists(xlsFilePath):
+		# 打开一个workbook
+		rb = xlrd.open_workbook(xlsFilePath)
+		table = rb.sheet_by_name(sheetName)
+		colNum = table.ncols  # 总共列数
+		rowNum = table.nrows  # 总共行数
+		result_len = len(result_list)
+		if result_len==rowNum-1:
+			wb = copy(rb)
+			ws = wb.get_sheet(sheetName)
+			for i in range(0,rowNum-1):
+				ws.write(i+1,colNum-1, result_list[i])
+			wb.save(saveFilePath)
+		else:
+			print('数据不全')
+	else:
+		print('excel文件不存在')
+
+def writeresult_win32(xlsFilePath,sheetName,result_list):
+	if os.path.exists(xlsFilePath):
+		# 获取excel 对象
+		excel = win32com.client.Dispatch('Excel.Application')
+		"""
+		0代表隐藏对象，但可以通过菜单再显示
+		-1代表显示对象
+		2代表隐藏对象，但不可以通过菜单显示，只能通过VBA修改为显示状态
+		"""
+		excel.Visible = 0
+		# 打开excel
+		myBook = excel.Workbooks.Open(xlsFilePath)
+		# sheet页，可以是序号，也可以是名称
+		mySheet = myBook.Worksheets(sheetName)
+		# 焦点转移到sheet页
+		mySheet.Activate()
+		#获取有效行数
+		LastRow = mySheet.usedrange.rows.count
+		LastCol = mySheet.usedrange.columns.count
+		result_len = len(result_list)
+		for i in range(1, LastRow):
+			mySheet.Cells(i + 1, LastCol).Value = ''
+		if result_len==LastRow-1:
+			for i in range(1,LastRow):
+				mySheet.Cells(i+1, LastCol).Value = result_list[i-1]
+			# 保存
+			myBook.Save()
+			# 退出
+			myBook.Close()
+			del excel
+		else:
+			print('数据不全')
+
+	else:
+		print("excel文件不存在")
+
+if __name__ == '__main__':
+	writeresult_win32()
+	file_path=os.path.dirname(os.path.abspath('..'))+'\\data\\test_data.xlsx'
+
+
+	rowsInFirstSheet = getAllRowsBySheetIndex(2, file_path)
+	print(rowsInFirstSheet)
+
+	colsInFirstSheet = getAllColsBySheetIndex(2, file_path)
+	print(colsInFirstSheet)
+
+	print(getRow(2, 0, file_path))  # 获取第一个sheet第一行的数据
+
+	print(getCol(2, 0, file_path))  # 获取第一个sheet第一列的数据
+
+	print(getCellValue(2, 3, 1, file_path))  # 获取第一个sheet第四行第二列的单元格的值

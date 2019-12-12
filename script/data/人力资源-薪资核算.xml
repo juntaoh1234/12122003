@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <connection description="浏览器及server地址">
+    <hub browser="FF" enabled="False"/>
+    <hub browser="Chrome" enabled="True"/>
+    <hub browser="ie" enabled="False"/>
+  </connection>
+<scene description="脚本执行顺序为子标签排列顺序" schemeId="1802">
+
+  <!--员工录用填单提交-->
+
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/公共薪资项目前置.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+  <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资标准.py</testCase>
+  <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+</scene></catalog>

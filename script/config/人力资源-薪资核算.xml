@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <connection description="浏览器及server地址">
+        <hub browser="FF" enabled="False"/>
+        <hub browser="Chrome" enabled="True"/>
+        <hub browser="ie" enabled="False"/>
+    </connection>
+    <scene description="脚本执行顺序为子标签排列顺序" schemeId="1802">
+
+        <!--  添加前置条件-->
+
+        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/添加纳税人识别号.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/审批流_发放单.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/审批流_定调薪.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>-->
+        <!--新建薪資规则 -->
+<!--        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>-->
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/规则设置.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资期间_删除.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资期间.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/公共薪资项目前置.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/税率表.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资标准.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/公共薪资项目.py</testCase>
+
+
+        <!--定调资申请时要求的前置条件，薪资项目的子项，数据来源为定调资档案-->
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/公共薪资项目前置.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/定调资申请.py</testCase>
+
+        <!--薪资核算-->
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/发薪方案_删除.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/发薪方案.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/发薪人员.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资发放单.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/薪资分摊.py</testCase>
+
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/人力资源/薪资核算/个人所得税申报.py</testCase>
+        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+
+
+    </scene>
+</catalog>

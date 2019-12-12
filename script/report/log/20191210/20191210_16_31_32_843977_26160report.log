@@ -1,0 +1,69 @@
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:32  loga.py  putSystemLog [line:74] INFO Start.
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:32  loga.py  putSystemLog [line:74] INFO 场景<1>开始.
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:36  loga.py  writeLog [line:134] INFO 行号:0    PASS   最大化浏览器窗口[maximize_window]  用时:1.129s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO chrome浏览器启动成功.
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 开始加载脚本...
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 脚本<1>：U8EX登录 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登录
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 脚本<2>：资产类别 加载成功.脚本路径：script/testCase/Y3me项目/数字化建模/固定资产/资产类别
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 脚本<3>：U8EX登出 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登出
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 脚本加载完成...
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:37  loga.py  putSystemLog [line:74] INFO 开始运行脚本<class 'script.testCase.U8EX项目.公共.U8EX登录.EasyCase'>
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:39  loga.py  writeLog [line:134] INFO 行号:27   PASS   访问页面[get]  用时:1.445s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:40  loga.py  writeLog [line:134] INFO 行号:29   PASS   查找元素[find_element]  用时:0.011s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:40  loga.py  writeLog [line:134] INFO 行号:30   PASS   查找元素[find_element]  用时:0.007s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:41  loga.py  writeLog [line:134] INFO 行号:30   PASS   左键单击[click]  用时:0.050s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:42  loga.py  writeLog [line:134] INFO 行号:34   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:42  loga.py  writeLog [line:134] INFO 行号:35   PASS   查找元素[find_element]  用时:0.008s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:43  loga.py  writeLog [line:134] INFO 行号:36   PASS   切换到表单[frame]  用时:0.030s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:45  loga.py  writeLog [line:134] INFO 行号:39   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:45  loga.py  writeLog [line:134] INFO 行号:40   PASS   查找元素[find_element]  用时:0.007s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:46  loga.py  writeLog [line:134] INFO 行号:40   PASS   清除文本[clear]  用时:0.018s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:47  loga.py  writeLog [line:134] INFO 行号:41   PASS   查找元素[find_element]  用时:0.005s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:47  loga.py  writeLog [line:134] INFO 行号:41   PASS   模拟输入[send_keys]  用时:0.080s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:48  loga.py  writeLog [line:134] INFO 行号:42   PASS   查找元素[find_element]  用时:0.016s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:49  loga.py  writeLog [line:134] INFO 行号:42   PASS   清除文本[clear]  用时:0.036s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:50  loga.py  writeLog [line:134] INFO 行号:43   PASS   查找元素[find_element]  用时:0.008s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:51  loga.py  writeLog [line:134] INFO 行号:43   PASS   模拟输入[send_keys]  用时:0.066s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:52  loga.py  writeLog [line:134] INFO 行号:45   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:52  loga.py  writeLog [line:134] INFO 行号:46   PASS   查找元素[find_element]  用时:0.007s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:53  loga.py  writeLog [line:134] INFO 行号:46   PASS   左键单击[click]  用时:0.081s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:54  loga.py  writeLog [line:134] INFO 行号:52   PASS   查找元素[find_element]  用时:0.012s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:54  loga.py  writeLog [line:134] INFO 行号:53   PASS   查找元素[find_element]  用时:0.007s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:55  loga.py  writeLog [line:134] INFO 行号:53   PASS   左键单击[click]  用时:0.095s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:56  loga.py  writeLog [line:134] INFO 行号:54   PASS   查找元素[find_element]  用时:0.071s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:57  loga.py  writeLog [line:134] INFO 行号:54   PASS   左键单击[click]  用时:0.116s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:58  loga.py  writeLog [line:134] INFO 行号:56   PASS   查找元素[find_element]  用时:0.009s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:58  loga.py  writeLog [line:134] INFO 行号:56   PASS   左键单击[click]  用时:0.381s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:59  loga.py  putSystemLog [line:74] INFO 脚本运行完毕...
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:31:59  loga.py  putSystemLog [line:74] INFO 开始运行脚本<class 'script.testCase.Y3me项目.数字化建模.固定资产.资产类别.EasyCase'>
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:00  loga.py  writeLog [line:134] INFO 行号:25   PASS   刷新页面[refresh]  用时:0.224s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:01  loga.py  writeLog [line:134] INFO 行号:27   PASS   查找元素[find_element]  用时:0.017s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:01  loga.py  writeLog [line:134] INFO 行号:27   PASS   左键单击[click]  用时:0.056s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:03  loga.py  writeLog [line:134] INFO 行号:30   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:04  loga.py  writeLog [line:134] INFO 行号:30   PASS   左键单击[click]  用时:0.046s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:06  loga.py  writeLog [line:134] INFO 行号:33   PASS   查找元素[find_element]  用时:0.009s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:08  loga.py  writeLog [line:134] INFO 行号:40   PASS   查找元素[find_element]  用时:0.009s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:12  loga.py  writeLog [line:134] INFO 行号:47   PASS   查找元素[find_element]  用时:0.008s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:13  loga.py  writeLog [line:134] INFO 行号:50   PASS   查找元素[find_element]  用时:0.009s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:14  loga.py  writeLog [line:134] INFO 行号:51   PASS   切换到表单[frame]  用时:0.351s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:15  loga.py  writeLog [line:134] INFO 行号:55   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:16  loga.py  writeLog [line:134] INFO 行号:56   PASS   查找元素[find_element]  用时:0.005s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:16  loga.py  writeLog [line:134] INFO 行号:56   PASS   左键单击[click]  用时:0.102s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:17  loga.py  writeLog [line:134] INFO 行号:60   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:18  loga.py  writeLog [line:134] INFO 行号:61   PASS   查找元素[find_element]  用时:0.006s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:19  loga.py  writeLog [line:134] INFO 行号:61   PASS   左键单击[click]  用时:0.092s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:20  loga.py  writeLog [line:134] INFO 行号:65   PASS   查找元素[find_element]  用时:0.015s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:20  loga.py  writeLog [line:134] INFO 行号:66   PASS   查找元素[find_element]  用时:0.006s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:21  loga.py  writeLog [line:134] INFO 行号:66   PASS   左键单击[click]  用时:0.076s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:22  loga.py  writeLog [line:134] INFO 行号:70   PASS   查找元素[find_element]  用时:0.007s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:22  loga.py  writeLog [line:134] INFO 行号:71   PASS   查找元素[find_element]  用时:0.020s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:23  loga.py  writeLog [line:134] INFO 行号:71   PASS   左键单击[click]  用时:0.049s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:24  loga.py  writeLog [line:134] INFO 行号:78   PASS   查找元素[find_element]  用时:0.010s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:24  loga.py  writeLog [line:134] INFO 行号:79   PASS   查找元素[find_element]  用时:0.006s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:25  loga.py  writeLog [line:134] INFO 行号:79   PASS   模拟输入[send_keys]  用时:0.067s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:26  loga.py  writeLog [line:134] INFO 行号:86   PASS   查找元素[find_element]  用时:0.011s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:26  loga.py  writeLog [line:134] INFO 行号:87   PASS   查找元素[find_element]  用时:0.008s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:27  loga.py  writeLog [line:134] INFO 行号:87   PASS   模拟输入[send_keys]  用时:0.050s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:28  loga.py  writeLog [line:134] INFO 行号:92   PASS   查找元素[find_element]  用时:0.011s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:28  loga.py  writeLog [line:134] INFO 行号:93   PASS   查找元素[find_element]  用时:0.008s  
+20191210_16_31_32_843977_26160report.log 2019-12-10 16:32:29  loga.py  writeLog [line:134] INFO 行号:93   PASS   左键单击[click]  用时:0.057s  

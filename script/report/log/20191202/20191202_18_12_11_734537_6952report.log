@@ -1,0 +1,36 @@
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:11  loga.py  putSystemLog [line:74] INFO Start.
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:11  loga.py  putSystemLog [line:74] INFO 场景<1>开始.
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:15  loga.py  writeLog [line:134] INFO 行号:0    PASS   最大化浏览器窗口[maximize_window]  用时:1.122s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO chrome浏览器启动成功.
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 开始加载脚本...
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<1>：U8EX登录 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登录
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<2>：员工信息 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/员工管理/员工信息
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<3>：劳动合同签订 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/劳动合同签订
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<4>：审批中心_审批合同 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/审批中心_审批合同
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<5>：劳动合同变更 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/劳动合同变更
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<6>：审批中心_审批合同 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/审批中心_审批合同
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<7>：劳动合同续签 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/劳动合同续签
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<8>：审批中心_审批合同 加载成功.脚本路径：script/testCase/Y3me项目/人力资源/劳动合同/审批中心_审批合同
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本<9>：U8EX登出 加载成功.脚本路径：script/testCase/U8EX项目/公共/U8EX登出
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 脚本加载完成...
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:16  loga.py  putSystemLog [line:74] INFO 开始运行脚本<class 'script.testCase.U8EX项目.公共.U8EX登录.EasyCase'>
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:26  loga.py  writeLog [line:134] INFO 行号:27   PASS   访问页面[get]  用时:9.665s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:27  loga.py  writeLog [line:134] INFO 行号:29   PASS   查找元素[find_element]  用时:0.024s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:27  loga.py  writeLog [line:134] INFO 行号:30   PASS   查找元素[find_element]  用时:0.007s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:28  loga.py  writeLog [line:134] INFO 行号:30   PASS   左键单击[click]  用时:0.088s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:29  loga.py  writeLog [line:134] INFO 行号:34   PASS   查找元素[find_element]  用时:0.009s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:29  loga.py  writeLog [line:134] INFO 行号:35   PASS   查找元素[find_element]  用时:0.010s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:30  loga.py  writeLog [line:134] INFO 行号:36   PASS   切换到表单[frame]  用时:0.019s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:32  loga.py  writeLog [line:134] INFO 行号:39   PASS   查找元素[find_element]  用时:0.030s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:33  loga.py  writeLog [line:134] INFO 行号:40   PASS   查找元素[find_element]  用时:0.010s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:33  loga.py  writeLog [line:134] INFO 行号:40   PASS   清除文本[clear]  用时:0.027s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:34  loga.py  writeLog [line:134] INFO 行号:41   PASS   查找元素[find_element]  用时:0.014s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:35  loga.py  writeLog [line:134] INFO 行号:41   PASS   模拟输入[send_keys]  用时:0.141s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:36  loga.py  writeLog [line:134] INFO 行号:42   PASS   查找元素[find_element]  用时:0.033s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:36  loga.py  writeLog [line:134] INFO 行号:42   PASS   清除文本[clear]  用时:0.037s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:37  loga.py  writeLog [line:134] INFO 行号:43   PASS   查找元素[find_element]  用时:0.024s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:38  loga.py  writeLog [line:134] INFO 行号:43   PASS   模拟输入[send_keys]  用时:0.076s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:39  loga.py  writeLog [line:134] INFO 行号:45   PASS   查找元素[find_element]  用时:0.036s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:39  loga.py  writeLog [line:134] INFO 行号:46   PASS   查找元素[find_element]  用时:0.009s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:12:40  loga.py  writeLog [line:134] INFO 行号:46   PASS   左键单击[click]  用时:0.116s  
+20191202_18_12_11_734537_6952report.log 2019-12-02 18:13:11  loga.py  writeLog [line:134] INFO 行号:52   FAIL   查找元素[find_element]  用时:30.008s  参数:{'list': '', 'dict': {'xpath': '//*[@id="_dropdown_popcontainer"]/div/i'}} 页面中没有该元素.NoSuchElementException

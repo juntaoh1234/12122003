@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <connection description="浏览器及server地址">
+        <hub browser="FF" enabled="False"/>
+        <hub browser="Chrome" enabled="True"/>
+        <hub browser="ie" enabled="False"/>
+    </connection>
+    <scene description="脚本执行顺序为子标签排列顺序" schemeId="1802">
+
+        <testCase paramPath="" enabled="True" scriptId="1618">U8EX项目/公共/U8EX登录.py</testCase>
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/财务管理/总账/凭证类型.py</testCase>-->
+
+        <!--       现金流量类型应该执行于账簿前面-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/现金流量类型.py</testCase>-->
+<!--账簿设置为启用状态-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/常用摘要.py</testCase>-->
+<!--                <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/常用凭证.py</testCase>-->
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/现金流量项目.py</testCase>-->
+
+<!--        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/现金流量拆分模板.py</testCase>-->
+        <testCase paramPath="" enabled="True" scriptId="2217">Y3me项目/数字化建模/总账/报表数据审核.py</testCase>
+        <testCase paramPath="" enabled="True" scriptId="1619">U8EX项目/公共/U8EX登出.py</testCase>
+    </scene>
+</catalog>

@@ -1,0 +1,5 @@
+sys.log 2019-12-04 17:02:06  loga.py  putSystemLog [line:82] INFO 程序启动.基本脚本录制.xml
+sys.log 2019-12-04 17:02:07  loga.py  putSystemLog [line:82] INFO Start.
+sys.log 2019-12-04 17:03:18  loga.py  putSystemLog [line:82] INFO End.
+sys.log 2019-12-04 17:03:18  loga.py  putSystemLog [line:82] INFO 程序结束.基本脚本录制.xml
+
